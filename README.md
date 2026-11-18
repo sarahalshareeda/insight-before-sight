@@ -50,16 +50,16 @@ All tests use the 2,000 test scenarios (seeds 10,000 to 11,999) at hesitation le
 
 | Part | Command | Content | Paper |
 |---|---|---|---|
-| T0 | `python rerun_tests.py T0` | Nominal channel, all RL runs and rules. Equals the Colab results in `data/episodes_v6.csv`, scenario by scenario. | Table II |
-| T1 | `python rerun_tests.py T1` | Channel faults: 10% and 30% loss, +300 and +500 ms delay, RSU failure. | Fig. 6, Sec. IV-D |
-| T2 | `python rerun_tests.py T2` | Bursty message loss (Gilbert-Elliott model). | Sec. IV-D, S2.5 |
-| T3 | `python rerun_tests.py T3` | Sensitivity to the pedestrian cue (beta = 0.85 and 1), with retrained predictors. | Sec. IV-D, S2.6 |
+| T0 | `python rerun_tests.py T0` | Nominal channel, all RL runs and rules. Equals the Colab results in `data/episodes_v6.csv`, scenario by scenario. | Table III |
+| T1 | `python rerun_tests.py T1` | Channel faults: 10% and 30% loss, +300 and +500 ms delay, RSU failure. | Fig. 7, Sec. IV-D |
+| T2 | `python rerun_tests.py T2` | Bursty message loss (Gilbert-Elliott model). | Sec. IV-D, S2.4 |
+| T3 | `python rerun_tests.py T3` | Sensitivity to the pedestrian cue (beta = 0.85 and 1), with retrained predictors. | Sec. IV-D, S2.5 |
 | T4 | `python rerun_tests.py T4` | Second scenario set (seeds 40,000 to 41,999), nominal and RSU failure. | S2.3 |
-| T5 | `python rerun_tests.py T5` | Replay of scenario 10,798. | Fig. 8 |
-| T6 | `python rerun_tests.py T6` | Defensive speed without V2X. | Table II |
-| T7 | `python rerun_tests.py T7` | Decision logs of the RL runs and the rule. | Fig. 5, Fig. S6 |
+| T5 | `python rerun_tests.py T5` | Replay of scenario 10,798. | Fig. 9 |
+| T6 | `python rerun_tests.py T6` | Defensive speed without V2X. | Table III |
+| T7 | `python rerun_tests.py T7` | Decision logs of the RL runs and the rule. | Fig. 5 |
 | T8 | `python rerun_tests.py T8` | Test windows of the RSU predictor. | Fig. 4 |
-| T9 | `python rerun_tests.py T9` | Control runs (imitation start, no V2X) at each hesitation level. | Table II, Sec. IV-B |
+| T9 | `python rerun_tests.py T9` | Control runs (imitation start, no V2X) at each hesitation level. | Table III, Sec. IV-B |
 | S2.1 | `python s21_rule_variants.py` | Rule variants on 3,000 validation scenarios (seeds 50,000 to 52,999). | Table S1 |
 | S2.2 | `python s22_privileged_critic.py 1 2` | Fine-tuning with a privileged critic (scheme 1 or 2, run 2 or 4). | S2.2 |
 
@@ -75,15 +75,15 @@ Their episodes and decisions are in `reproduce/data/`, named by the key of each 
 | Name | Output | Paper |
 |---|---|---|
 | `fig5` | `fig_pred_a_calibration.pdf`, `fig_pred_b_auc.pdf` | Fig. 4 |
-| `fig6` | `fig_braking_a_sidewalk.pdf`, `fig_braking_b_road.pdf` | Fig. 5, Fig. S6 |
-| `fig8` | `fig_robustness.pdf` | Fig. 6 |
-| `fig10` | `fig_run_tracked.pdf` | Fig. 8 |
-| `fig4` | `fig_train_a_collisions.pdf`, `fig_train_b_validation.pdf`, `fig_train_legend.pdf` | Fig. S5 |
-| `fig7` | `fig_hesitation.pdf` | Fig. S4 |
+| `fig6` | `fig_braking_a_sidewalk.pdf`, `fig_braking_b_road.pdf` | Fig. 5 |
+| `fig8` | `fig_robustness.pdf` | Fig. 7 |
+| `fig10` | `fig_run_tracked.pdf` | Fig. 9 |
+| `fig4` | `fig_train_a_collisions.pdf`, `fig_train_b_validation.pdf`, `fig_train_legend.pdf` | Fig. S4 |
+| `fig7` | `fig_hesitation.pdf` | Fig. 6 |
 | `figS3` | `figS3_hesitation_time.pdf` | Fig. S3 |
 | `figS1` | `figS1_training_return.pdf` | Fig. S1 |
 
-Figs. 1 to 3 and Fig. 7 are drawings and are not built from data.
+Figs. 1 to 3 and Fig. 8 are drawings and are not built from data.
 
 ## Running the notebooks
 

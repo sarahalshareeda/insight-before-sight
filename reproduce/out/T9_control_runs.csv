@@ -1,0 +1,6 @@
+run,val,source,mode,chosen
+0,2.126927406925326,PPO,greedy,True
+1,1.5069725970920784,PPO,sampled,False
+2,0.9968758133426293,PPO,greedy,False
+3,1.5385527028806567,PPO,greedy,False
+4,1.066581287062032,PPO,sampled,False

@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the paper and this repository."
+title: "Insight Before Sight: code, models, and results"
+type: software
+version: 1.0.0
+date-released: 2026-11-18
+license: MIT
+repository-code: "https://github.com/sarahalshareeda/insight-before-sight"
+authors:
+  - family-names: Al-Shareeda
+    given-names: Sarah
+    orcid: "https://orcid.org/0000-0001-6337-0453"
+    affiliation: "Universiti Malaya"
+keywords:
+  - pedestrian safety
+  - vehicle-to-everything communication
+  - roadside units
+  - crossing intention
+  - deep reinforcement learning
+  - large language models
+  - autonomous vehicles
+preferred-citation:
+  type: article
+  title: "Insight Before Sight: V2X Pedestrian Intention for RL- and LLM-Driven Autonomous Vehicles"
+  authors:
+    - family-names: Al-Shareeda
+      given-names: Sarah
+      orcid: "https://orcid.org/0000-0001-6337-0453"
+  journal: "IEEE Transactions on Intelligent Transportation Systems"
+  year: 2026
+  notes: "Submitted"

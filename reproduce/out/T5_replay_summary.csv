@@ -1,0 +1,4 @@
+agent,collision,passed,t
+"RL + V2X, run 4",False,True,9.700000000000001
+"LLM + V2X, variant C",False,True,11.0
+LLM log: decisions found,,,23.0

@@ -4,7 +4,7 @@
 
 Code, trained models, and results of the paper
 
-S. Al-Shareeda, "Insight Before Sight: V2X Pedestrian Intention for RL- and LLM-Driven Autonomous Vehicles,"
+S. Al-Shareeda, "Insight Before Sight: Conveying V2X Pedestrian Intention to RL- and LLM-Driven Autonomous Vehicles,"
 submitted to *IEEE Transactions on Intelligent Transportation Systems*, 2026.
 
 A roadside unit (RSU) sees a pedestrian behind parked cars before the vehicle does. It estimates the probability that

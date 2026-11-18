@@ -22,7 +22,7 @@ keywords:
   - autonomous vehicles
 preferred-citation:
   type: article
-  title: "Insight Before Sight: V2X Pedestrian Intention for RL- and LLM-Driven Autonomous Vehicles"
+  title: "Insight Before Sight: Conveying V2X Pedestrian Intention to RL- and LLM-Driven Autonomous Vehicles"
   authors:
     - family-names: Al-Shareeda
       given-names: Sarah

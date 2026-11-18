@@ -2,7 +2,7 @@
   "title": "Insight Before Sight: code, models, and results",
   "upload_type": "software",
   "version": "1.0.0",
-  "description": "Code, trained models, and results of the paper \"Insight Before Sight: V2X Pedestrian Intention for RL- and LLM-Driven Autonomous Vehicles,\" submitted to IEEE Transactions on Intelligent Transportation Systems. A roadside unit estimates the probability that an occluded pedestrian walks onto the road without stopping and shares it over V2X. A recurrent reinforcement learning agent and an open large language model use this probability under the same safety floor. The release holds the Colab notebooks, CPU scripts that rerun the tests of the paper, the trained predictor and policies, every test episode and decision, and the result figures. Code: MIT License. Models and results: CC BY 4.0.",
+  "description": "Code, trained models, and results of the paper \"Insight Before Sight: Conveying V2X Pedestrian Intention to RL- and LLM-Driven Autonomous Vehicles,\" submitted to IEEE Transactions on Intelligent Transportation Systems. A roadside unit estimates the probability that an occluded pedestrian walks onto the road without stopping and shares it over V2X. A recurrent reinforcement learning agent and an open large language model use this probability under the same safety floor. The release holds the Colab notebooks, CPU scripts that rerun the tests of the paper, the trained predictor and policies, every test episode and decision, and the result figures. Code: MIT License. Models and results: CC BY 4.0.",
   "access_right": "open",
   "license": "MIT",
   "creators": [

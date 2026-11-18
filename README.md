@@ -1,5 +1,7 @@
 # Insight Before Sight
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24338376.svg)](https://doi.org/10.5281/zenodo.24338376)
+
 Code, trained models, and results of the paper
 
 S. Al-Shareeda, "Insight Before Sight: V2X Pedestrian Intention for RL- and LLM-Driven Autonomous Vehicles,"
@@ -104,4 +106,5 @@ Creative Commons Attribution 4.0 International License (`LICENSE-DATA.md`).
 
 ## Citation
 
-Please cite the paper if you use this code or these results. `CITATION.cff` gives the reference of this repository.
+Please cite the paper if you use this code or these results. The archived release is
+https://doi.org/10.5281/zenodo.24338376, and `CITATION.cff` gives its reference.

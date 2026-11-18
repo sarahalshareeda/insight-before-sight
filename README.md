@@ -93,8 +93,8 @@ notebook. Change it there to use another folder. Each run gets a subfolder named
 changed setting never overwrites an earlier result.
 
 On a Colab CPU runtime, the RL notebook trains the predictor and all runs in about 70 min (Cell B), evaluates them in
-about 45 min (Cell C), and runs the robustness tests in about 12 min (Cell D). The LLM notebook needs a GPU. The paper
-reports the response times on one NVIDIA T4 GPU.
+about 45 min (Cell C), and runs the robustness tests in about 12 min (Cell D). The LLM notebook needs a GPU. The paper's
+LLM runs used one NVIDIA A100 GPU, and its response times were measured on one NVIDIA T4 GPU.
 
 `notebooks/rl_cell_control_run.py` is a cell to paste after Cell D of the RL notebook. `reproduce/train_control.py`
 runs the same training on a CPU.
